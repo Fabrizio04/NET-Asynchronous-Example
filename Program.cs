@@ -1,7 +1,7 @@
 Console.WriteLine("Test 1");
 
 var taskLog = LogTest(); // -> Continue to Test 3
-//await Logga(); // -> Await end of method, doesn't continue
+//await LogTest(); // -> Await end of method, doesn't continue
 
 Console.WriteLine("Wait 5s...");
 Thread.Sleep(5000);
